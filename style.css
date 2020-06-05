@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.todo-list {
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #efefef;
+}
+
+todo-list > div {
+    width: 100%;
+}
+
+hr {
+    width: 100px;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-item input {
+    margin-right: 20px;
+}
+
+.todo-item-done {
+    text-decoration: line-through;
+}
+
+input[type='checkbox'] {
+    margin-right: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+}
+
+form input[type='text'] {
+    width: 70%;
+}
